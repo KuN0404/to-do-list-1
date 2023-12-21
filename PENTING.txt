@@ -1,0 +1,6 @@
+Penjelasannya ke bu yulina
+
+"Ini adalah aplikasi to-do list (pembuat catatan kegiatan yang akan di lakukan), aplikasinya pake HTML sebagai penampil utama, css sebagai pemercantik tampilan html, dan javascrip sebagai pembuat fungsi web aplikasinya."
+
+
+hapus saja file ini klo udah di baca

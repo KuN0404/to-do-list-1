@@ -1,0 +1,36 @@
+<!-- Awal Html -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aplikasi To-do List</title>
+    <!-- Buat Sambungin Css -->
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  </head>
+  <body>
+    <!-- Div Warp Untuk Membungkus Kode  -->
+    <div class="wrapper">
+      <div class="task-input">
+        <!-- icon garis di menu input -->
+        <img src="bars-icon.svg" alt="icon" />
+        <!-- Buat Kotak Untuk Menambahkan Kegiatan -->
+        <input type="text" placeholder="Tambahkan Tugas" />
+      </div>
+      <!-- Buat Fitur Aksi -->
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">Semua</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Selesai</span>
+        </div>
+        <button class="clear-btn">Bersihkan</button>
+      </div>
+      <!-- Buat menampilkan KEgiatan yang sudah ditambahkan -->
+      <ul class="task-box"></ul>
+    </div>
+    <!-- Buat Sambungin Java Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
